@@ -74,7 +74,7 @@ export default function TextForm(props) {
             <p>{text.trim().length > 0 ? text.trim().split(/\s+/).length : 0} words, {text.length} characters</p>
             <p>{0.008 * text.split(" ").length} Minutes read</p>
             <h3>Preview</h3>
-            <p>{text}</p>
+            <p style={{marginBottom: "70px"}}>{text}</p>
         </div>
         </>
     )

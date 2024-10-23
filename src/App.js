@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
+import Footer from './components/Footer';
 // so here i am using react router and i want to switch between my About and TextForm JS
 // import { 
 //   BrowserRouter as Router,
@@ -87,6 +88,7 @@ function App() {
       <div>
         <TextForm showAlert={showAlert} mode={mode} />
       </div>
+      <Footer mode={mode}/>
     </>
   );
 }
